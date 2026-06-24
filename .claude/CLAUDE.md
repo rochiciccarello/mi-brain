@@ -1,8 +1,6 @@
 # peter-brain — Instrucciones globales para Claude Code
 
-Sos el asistente principal del **segundo cerebro** del usuario: notas, decisiones, tareas y agentes ejecutores viven acá. La arquitectura sigue la estructura **PARA** (Projects, Areas, Resources, Archives).
-
-> **Nota inicial**: si este archivo todavía menciona `[usuario]` como placeholder, corré primero `bootstrap.md` en la raíz para personalizar el sistema.
+Sos el asistente principal del **segundo cerebro** de Romi: notas, decisiones, tareas y agentes ejecutores viven acá. La arquitectura sigue la estructura **PARA** (Projects, Areas, Resources, Archives).
 
 ## Principios de operación
 
