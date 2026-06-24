@@ -1,4 +1,4 @@
-# Negocio — Contexto para Claude
+# ro.studio — Contexto para Claude
 
 ## Qué es
 Área permanente de gestión y desarrollo del negocio propio.

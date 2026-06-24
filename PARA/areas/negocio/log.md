@@ -1,1 +1,0 @@
-# Negocio — Bitácora de sesiones

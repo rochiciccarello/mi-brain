@@ -1,4 +1,4 @@
-# Negocio — Knowledge base
+# ro.studio — Knowledge base
 
 ## Contexto
 Área permanente de gestión y desarrollo del negocio propio.
