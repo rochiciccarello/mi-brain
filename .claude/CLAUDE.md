@@ -86,6 +86,17 @@ Regla: si actualizás el rol, tocás solo el SSOT. Los wrappers nunca duplican c
 
 **Excepción**: comandos puramente operacionales sin identidad de rol (`/capture`, `/process-inbox`, `/debrief`, `/show-tasks`) viven solo como command en `.claude/commands/` sin SSOT en PARA — son flujo, no identidad.
 
+## Convención para instalar skills nuevas (portabilidad multi-máquina)
+
+Cuando instalás una skill nueva (propia o de terceros, ej. paquetes tipo `ai-first-pm-skills`), seguí este flujo para que quede respaldada en git y disponible globalmente a la vez:
+
+1. **Copiá los archivos de la skill dentro de `mi-brain/skills/[nombre-skill]/`**. Nunca la dejes solo en `~/.claude/skills/` — esa carpeta no es un repo git, no se respalda ni sincroniza entre máquinas.
+2. **Commiteá** esa carpeta en `mi-brain` (queda versionada y sincronizada vía Google Drive).
+3. **Symlink** desde `~/.claude/skills/[nombre-skill]` hacia la carpeta en `mi-brain`, para que Claude Code la reconozca como skill global sin duplicar contenido:
+   ```bash
+   ln -s "/Users/romi/Library/CloudStorage/GoogleDrive-rominaciccarello@gmail.com/Mi unidad/mi-brain/skills/[nombre-skill]" ~/.claude/skills/[nombre-skill]
+   ```
+
 ## Sub-agentes disponibles
 
 - **research-agent**: investigación web, comparativas, resúmenes. Solo lectura.
