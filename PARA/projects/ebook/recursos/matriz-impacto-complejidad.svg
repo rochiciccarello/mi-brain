@@ -1,0 +1,54 @@
+<svg width="100%" viewBox="0 0 680 590" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Matriz de impacto vs. complejidad de las ideas del Mapa del Valor</title>
+<desc>Cinco ideas del mapa del valor ubicadas segun impacto potencial y complejidad. Precio regional PPA y traduccion IA con simultaneidad editorial caen en big bets, alto impacto y alta complejidad. Asistente de lectura IA queda cerca del centro, entre quick win e incremental. Sistema de regalo y modo antes de dormir caen en incremental, impacto y complejidad bajos a medios. Ningun item cae en money pit.</desc>
+<style>
+text { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #2C2C2A; }
+.th { font-size: 14px; font-weight: 500; }
+.t { font-size: 14px; font-weight: 400; }
+.ts { font-size: 12px; font-weight: 400; fill: #5F5E5A; }
+.axis { stroke: #444441; stroke-width: 1; }
+.leader { stroke: #B4B2A9; stroke-width: 0.5; stroke-dasharray: 4 4; }
+.dot { fill: #E1F5EE; stroke: #0F6E56; stroke-width: 0.5; }
+.dot-label { fill: #085041; }
+.legend-dot { fill: #E1F5EE; stroke: #0F6E56; stroke-width: 0.5; }
+</style>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#444441" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+</defs>
+<line x1="150" y1="420" x2="150" y2="60" class="axis" marker-end="url(#arrow)"/>
+<line x1="150" y1="420" x2="620" y2="420" class="axis" marker-end="url(#arrow)"/>
+<line x1="385" y1="60" x2="385" y2="420" class="leader"/>
+<line x1="150" y1="240" x2="620" y2="240" class="leader"/>
+<text class="th" x="150" y="44" text-anchor="start">Impacto potencial</text>
+<text class="th" x="385" y="462" text-anchor="middle">Complejidad</text>
+<text class="ts" x="138" y="66" text-anchor="end" dominant-baseline="central">alto</text>
+<text class="ts" x="138" y="243" text-anchor="end" dominant-baseline="central">medio</text>
+<text class="ts" x="138" y="414" text-anchor="end" dominant-baseline="central">bajo</text>
+<text class="ts" x="150" y="438" text-anchor="middle">bajo</text>
+<text class="ts" x="385" y="438" text-anchor="middle">medio</text>
+<text class="ts" x="620" y="438" text-anchor="middle">alto</text>
+<text class="t" x="267" y="85" text-anchor="middle" font-style="italic" opacity="0.55">quick wins</text>
+<text class="t" x="502" y="85" text-anchor="middle" font-style="italic" opacity="0.55">big bets</text>
+<text class="t" x="267" y="400" text-anchor="middle" font-style="italic" opacity="0.55">incremental</text>
+<text class="t" x="502" y="400" text-anchor="middle" font-style="italic" opacity="0.55">money pit</text>
+<circle cx="447" cy="146" r="11" class="dot"/>
+<text class="ts dot-label" x="447" y="146" text-anchor="middle" dominant-baseline="central">1</text>
+<circle cx="514" cy="131" r="11" class="dot"/>
+<text class="ts dot-label" x="514" y="131" text-anchor="middle" dominant-baseline="central">2</text>
+<circle cx="356" cy="237" r="11" class="dot"/>
+<text class="ts dot-label" x="356" y="237" text-anchor="middle" dominant-baseline="central">3</text>
+<circle cx="301" cy="267" r="11" class="dot"/>
+<text class="ts dot-label" x="301" y="267" text-anchor="middle" dominant-baseline="central">4</text>
+<circle cx="249" cy="320" r="11" class="dot"/>
+<text class="ts dot-label" x="249" y="320" text-anchor="middle" dominant-baseline="central">5</text>
+<circle cx="160" cy="486" r="5" class="legend-dot"/>
+<text class="ts" x="172" y="490">1 — Precio regional PPA + plan compartido</text>
+<circle cx="160" cy="506" r="5" class="legend-dot"/>
+<text class="ts" x="172" y="510">2 — Traduccion IA + simultaneidad editorial</text>
+<circle cx="160" cy="526" r="5" class="legend-dot"/>
+<text class="ts" x="172" y="530">3 — Asistente de lectura IA</text>
+<circle cx="160" cy="546" r="5" class="legend-dot"/>
+<text class="ts" x="172" y="550">4 — Sistema de regalo + club de lectura</text>
+<circle cx="160" cy="566" r="5" class="legend-dot"/>
+<text class="ts" x="172" y="570">5 — Modo antes de dormir</text>
+</svg>
